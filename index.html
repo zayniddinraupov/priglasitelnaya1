@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сваде
+
+        бная открытка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Marck+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stayl.css">
+    <link rel="stylesheet" href="vercel.json">
+</head>
+
+<body>
+
+
+    <video id="bgVideo" autoplay muted loop playsinline poster="img/https://nikfoto.ru/blog/bouquets-wedding">
+        <source src="img/2.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+    <div class="video-overlay"></div>
+
+
+    <audio id="music" loop preload="auto">
+
+        <source src="img/Мот - Мурашками (online-video-cutter.com).mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудио-плеер.
+    </audio>
+
+    <!-- Экран блокировки -->
+    <div id="lockScreen" class="lock-screen" aria-hidden="false">
+        <div class="lock-inner">
+            <div class="lock-photo">
+                <img src="https://img.freepik.com/free-photo/luxury-wedding-groom-bride_624325-1770.jpg" alt="Фото" />
+            </div>
+            <button id="unlockBtn" class="unlock">
+                <span class="lock-icon" aria-hidden="true">🔒</span>
+                <span class="unlock-text">Разблокируйте</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="cover">
+        <div class="triangle top">
+            <div class="triangle-inner">
+                <h2>ВЫ ПРИГЛАШЕНЫ</h2>
+
+            </div>
+        </div>
+
+
+
+        <div class="triangle bottom">
+            <div class="triangle-inner">
+                <div class="big-yes"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="content">
+
+        <div class="hero container">
+            <div class="hero-left">
+            </div>
+
+            <div class="hero-center">
+                <div class="photo-frame">
+                    <div class="tape" aria-hidden="true"></div>
+                    <img src="https://img.freepik.com/free-photo/luxury-wedding-groom-bride_624325-1770.jpg"
+                        alt="Фото" />
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="info-card-new">
+                    <div class="date-top">27 | 06 | 26</div>
+                    <div class="divider-line"></div>
+                    <div class="names-new">
+                        <div class="groom">Зайниддин</div>
+                        <div class="bride">Парвина</div>
+                    </div>
+                    <div class="divider-dots"></div>
+                    <div class="subtitle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text invite-text">
+            <h2>Уважаемый Гости !</h2>
+            <p>
+                <b> С огромной радостью и трепетом в сердце
+                    <br>приглашаем вас разделить с нами
+                    <br>один из самых счастливых дней <br>
+                    в нашей жизни — день нашей свадьбы.</b>
+            </p>
+            <div class="details">
+
+                <p><strong>Дата:</strong> 27.06.2026</p>
+                <p><strong>Время:</strong> [18:00]</p>
+                <p><strong>Место:</strong> Ресторан Богишамол, улица Ипак-Юль</p>
+            </div>
+        </div>
+
+        <div class="text guests-section">
+            <h2>Дорогие гости!</h2>
+            <p>
+                Мы верим, что этот день станет красивым началом нашей счастливой совместной жизни.
+                Мы рады пригласить вас на торжество по случаю нашей свадьбы и разделить этот счастливый момент вместе с
+                нами.
+            </p>
+        </div>
+
+        <div class="calendar">
+            <div class="calendar-header">
+                <div class="month">Июнь</div>
+                <div class="year">2026</div>
+            </div>
+
+            <table class="calendar-grid" role="table" aria-label="Календарь Июнь 2026">
+                <thead>
+                    <tr>
+                        <th>Пн</th>
+                        <th>Вт</th>
+                        <th>Ср</th>
+                        <th>Чт</th>
+                        <th>Пт</th>
+                        <th>Сб</th>
+                        <th>Вс</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td class="highlight">27</td>
+
+                    </tr>
+                    <tr>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+        <section class="section location">
+            <h2>Локация</h2>
+
+            <div class="location-inner container">
+
+                <div class="location-frame">
+                    <div class="tape" aria-hidden="true"></div>
+                    <img src="https://i.ytimg.com/vi/mw6Ej2axBik/mqdefault.jpg" alt="Локация">
+                </div>
+
+
+            </div>
+
+            <div class="caption">
+                <div class="venue">Банкетный зал "Богишамал"</div>
+                <div class="address">Города Самарқанд улица Чукур-Юль 56</div>
+                <div class="location-actions">
+                    <button id="showMapBtn" class="btn">Показать локацию</button>
+                </div>
+            </div>
+
+            <div id="mapContainer" class="map-container" aria-hidden="true">
+                <iframe id="mapFrame" src="https://www.google.com/maps?q=39.661611,66.9536258&z=15&output=embed"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"></iframe>
+            </div>
+        </section>
+
+        <section class="section info">
+            <div class="box">
+                <h3>Подарки</h3>
+                <p>Главное для нас — разделить этот день с вами. А ваши тёплые пожелания и поддержка станут лучшим
+                    вкладом в начало нашей семейной жизни.</p>
+
+
+
+
+                <h3>Атмосфера</h3>
+                <p>
+                    Давайте наполним этот вечер улыбками, радостью и искренними моментами счастья.
+                </p>
+            </div>
+        </section>
+
+        <section class="section dresscode">
+            <div class="box">
+                <h2>Дресс-код</h2>
+                <div class="desc">
+                    <p>Мы очень хотим сделать наш первый семейный праздник самым красивым и стильным. И будем рады, если
+                        вы в своих нарядах поддержите цветовую гамму нашего торжества.</p>
+                </div>
+                <div class="colors">
+                    <span style="background: #e8dcc8;" title="Молочный"></span>
+                    <span style="background: #d4c4a8;" title="Бежевый"></span>
+                    <span style="background: #c0b0a0;" title="Светло-коричневый"></span>
+                    <span style="background: #3d4a2a;" title="Темно-зеленый"></span>
+                    <span style="background: #5a4a3a;" title="Коричневый"></span>
+                    <span style="background: #8b7355;" title="Теплый коричневый"></span>
+                    <span style="background: #d4a574;" title="Золотисто-бежевый"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section timer">
+            <h2>До нашего дня осталось</h2>
+
+            <div class="countdown">
+                <div>
+                    <span id="days">00</span>
+                    <small>дней</small>
+                </div>
+                <div>
+                    <span id="hours">00</span>
+                    <small>часов</small>
+                </div>
+                <div>
+                    <span id="minutes">00</span>
+                    <small>минут</small>
+                </div>
+                <div>
+                    <span id="seconds">00</span>
+                    <small>секунд</small>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="rels.js"></script>
+    <script>
+        (function () {
+            var unlock = document.getElementById('unlockBtn');
+            var screen = document.getElementById('lockScreen');
+            var music = document.getElementById('music');
+            if (!unlock || !screen) return;
+            function fadeAudio(audio, to, duration) {
+                if (!audio) return;
+                var start = audio.volume;
+                var change = to - start;
+                var startTime = performance.now();
+                function step(now) {
+                    var elapsed = now - startTime;
+                    var progress = Math.min(elapsed / (duration * 1000), 1);
+                    audio.volume = Math.max(0, Math.min(1, start + change * progress));
+                    if (progress < 1) requestAnimationFrame(step);
+                }
+                requestAnimationFrame(step);
+            }
+
+            function hideLock() {
+                // play music on user gesture with smooth fade-in (4s)
+                if (music) {
+                    try {
+                        // start from 0 to ensure smooth fade
+                        music.volume = 0.0;
+                        var p = music.play();
+                        if (p && p.then) p.catch(function () { });
+                        fadeAudio(music, 0.45, 4);
+                    } catch (e) { }
+                }
+
+                screen.style.opacity = '0';
+                screen.style.pointerEvents = 'none';
+                setTimeout(function () { screen.style.display = 'none'; screen.setAttribute('aria-hidden', 'true'); }, 400);
+            }
+            unlock.addEventListener('click', hideLock);
+            // также разблокировка кликом по фото
+            var photo = screen.querySelector('.lock-photo');
+            if (photo) photo.addEventListener('click', hideLock);
+        })();
+    </script>
+
+</body>
+
+</html>
