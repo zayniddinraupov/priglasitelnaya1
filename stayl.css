@@ -321,12 +321,12 @@ body {
 }
 
 .names-new {
-    margin: 12px 0;
+    margin: 17px 0;
 }
 
 .groom {
     font-family: 'Marck Script', cursive;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
     color: #1a1a1a;
     line-height: 1.2;
@@ -334,7 +334,7 @@ body {
 
 .bride {
     font-family: 'Marck Script', cursive;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 600;
     color: #1a1a1a;
     line-height: 1.2;
@@ -754,7 +754,7 @@ p {
 
 .countdown small {
     font-size: 14px;
-    color: #dcd5d5a4;
+    color: #06050508;
 }
 
 /* ====== АДАПТИВ ====== */
